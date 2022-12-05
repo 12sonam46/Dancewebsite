@@ -1,0 +1,63 @@
+.ser_heading {
+  color: orangered;
+}
+.paralexx {
+  height: 500px;
+  background: url("../../imagefolder/allimage/mjpic.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paralexx_snd {
+  height: 800px;
+  background: url("../../imagefolder/allimage/para.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paralexx_snd_3 {
+  height: 800px;
+  background: url("../../imagefolder/allimage/dummy5.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ser_btn {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
+.about_btn {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
+.event_btn {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
