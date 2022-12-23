@@ -8,6 +8,9 @@ import mjpic from "../imagefolder/allimage/mjpic.jpg";
 import cardbg from "../imagefolder/allimage/cardbg.jpg";
 import cardbg2 from "../imagefolder/allimage/cardbg2.jpg";
 import para from "../imagefolder/allimage/para.jpg";
+import footerimg from "../imagefolder/allimage/footerimg.jpg";
+import footerimg2 from "../imagefolder/allimage/footerimg2.png";
+import footerimg3 from "../imagefolder/allimage/footerimg3.webp";
 
 export const imgobj = {
   dplogo,
@@ -20,4 +23,7 @@ export const imgobj = {
   cardbg,
   cardbg2,
   para,
+  footerimg,
+  footerimg2,
+  footerimg3,
 };

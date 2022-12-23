@@ -7,6 +7,7 @@ export default function Header() {
     <div>
       {/* <div className="containersss"> */}
       {/* bs header */}
+
       <nav className={`${style.navbar_com} navbar navbar-expand-lg  `}>
         <div class="container-fluid">
           <div>
