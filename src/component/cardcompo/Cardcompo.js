@@ -30,7 +30,7 @@ export default function Cardcompo() {
               <div className="col-md-3 mx-auto">
                 <div className={`${style.bg_card_img} card text-start`}>
                   <img class=" p-3" src={el.img} alt="Title" />
-                  <div className={`${style.card_bdy} card-body`}>
+                  <div className={`${style.card_bdy} card-body border border-primary`}>
                     <h4 class="card-title">{el.name}</h4>
                     <p class="card-text">{el.des}</p>
                   </div>
