@@ -1,0 +1,21 @@
+.background_gradient {
+  background: rgb(255, 69, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );
+  height: 100vh;
+}
+.about_text {
+  font-size: 60px;
+}
+.about_main_img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.body_back_color {
+  background-color: rgb(255, 69, 0);
+  height: 170vh;
+}

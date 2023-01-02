@@ -1,0 +1,96 @@
+.ser_heading {
+  background: url(../../imagefolder/allimage/dplogo.png);
+  height: 700px;
+  background-position: center;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-color: black;
+  /* color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+  border-radius: 34px; */
+}
+.planet_text {
+  font-size: 140px;
+  color: white;
+}
+
+.Dance_text {
+  font-size: 140px;
+  color: white;
+}
+
+.paralexx {
+  height: 800px;
+  background: url("../../imagefolder/allimage/mjpic.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paralexx_snd {
+  height: 800px;
+  background: url("../../imagefolder/allimage/para.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paralexx_snd_3 {
+  height: 800px;
+  background: url("../../imagefolder/allimage/dummy5.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ser_btn {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 27px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
+.about_btn {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 27px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
+/* event btn */
+
+/* event btn */
+
+.event_btn {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #ff4500a3;
+  padding: 27px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 34px;
+}
+
+/* event btn */
+
+/* link page */
+.link_page {
+  text-decoration: none !important;
+}
+/* link page */

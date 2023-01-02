@@ -1,0 +1,13 @@
+.bg_card_img {
+  background: url("../../imagefolder/allimage/cardbg.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.card_bdy {
+  background-color: #807777a1;
+  color: black;
+}
