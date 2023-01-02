@@ -1,7 +1,6 @@
 .bg_card_img {
   background: url("../../imagefolder/allimage/cardbg.jpg");
   height: 50vh;
-  border: 3px solid red;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -11,6 +11,9 @@ import para from "../imagefolder/allimage/para.jpg";
 import footerimg from "../imagefolder/allimage/footerimg.jpg";
 import footerimg2 from "../imagefolder/allimage/footerimg2.png";
 import footerimg3 from "../imagefolder/allimage/footerimg3.webp";
+import front1 from "../imagefolder/allimage/front1.jpg";
+import front2 from "../imagefolder/allimage/front2.jpg";
+import front3 from "../imagefolder/allimage/front3.jpg";
 
 export const imgobj = {
   dplogo,
@@ -26,4 +29,7 @@ export const imgobj = {
   footerimg,
   footerimg2,
   footerimg3,
+  front1,
+  front2,
+  front3,
 };

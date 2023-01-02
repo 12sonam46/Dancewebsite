@@ -5,52 +5,59 @@ import style from "../Header/header.module.css";
 export default function Header() {
   return (
     <div>
-      {/* <div className="containersss"> */}
-      {/* bs header */}
-
-      <nav className={`${style.navbar_com} navbar navbar-expand-lg  `}>
-        <div class="container-fluid">
-          <div>
-            <img src={imgobj.dplogo} width="80px" height="80px" alt="" />
-          </div>
-          <a className={`${style.for_text} navbar-brand`} href="#qw">
-            DancePlanet
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                className={`${style.for_text} nav-link `}
-                aria-current="page"
-                href="sa#"
-              >
-                About
-              </a>
-              <a className={`${style.for_text} nav-link `} href="ss#">
-                Service
-              </a>
-              <a className={`${style.for_text} nav-link `} href="#ss">
-                Pricing
-              </a>
-              <a className={`${style.for_text} nav-link `} href="ad">
-                Event
-              </a>
+      <div className="container-fluid">
+        {/* navbar */}
+        <nav className={`${style.navbar_com} navbar navbar-expand-lg`}>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#0">
+              <img src={imgobj.dplogo} alt="Logo" width="50" height="50" />
+            </a>
+            <a class="navbar-brand text-light" href="#1">
+              Dance Planet
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#2"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#3">
+                    AboutUs
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#4">
+                    Pricing
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#4">
+                    Contact us
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-      </nav>
-      {/* bs header */}
-      {/* </div> */}
+        </nav>
+        {/* navbar */}
+      </div>
     </div>
   );
 }

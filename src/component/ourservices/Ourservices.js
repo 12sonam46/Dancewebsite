@@ -9,7 +9,7 @@ export default function Ourservices() {
       {/* this is services page */}
 
       <div className="container-fluid">
-        <div className={`${style.ser_heading}  `}>
+        {/* <div className={`${style.ser_heading}  `}>
           <div>
             <div className="row">
               <div className="col-md-4 ">
@@ -28,7 +28,7 @@ export default function Ourservices() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* paralex */}
         <div
           className={`${style.paralexx} d-flex justify-content-center align-items-center`}

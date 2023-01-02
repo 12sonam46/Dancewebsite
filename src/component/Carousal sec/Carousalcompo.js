@@ -36,14 +36,14 @@ export default function Carousalcompo() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             {/* <div className={`${style.over_view}`}> */}
-            <img src={imgobj.dummy1} class="d-block w-100" alt="..." />
+            <img src={imgobj.front1} class="d-block w-100" alt="..." />
             {/* </div> */}
           </div>
           <div class="carousel-item">
-            <img src={imgobj.dummy2} class="d-block w-100" alt="..." />
+            <img src={imgobj.front2} class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={imgobj.dummy3} class="d-block w-100" alt="..." />
+            <img src={imgobj.front3} class="d-block w-100" alt="..." />
           </div>
         </div>
         <button

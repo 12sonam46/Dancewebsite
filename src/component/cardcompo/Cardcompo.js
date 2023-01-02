@@ -5,19 +5,18 @@ import style from "../cardcompo/cardcompo.module.css";
 export default function Cardcompo() {
   const [cardsArr, setCardsArr] = useState([
     {
-      name: "satyam",
-      des: "dancer",
-      img: imgobj.dummy1,
-      //   bgimg:
-    },
-    {
-      name: "satyam",
-      des: "dancer",
+      name: "Stage show",
+      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Amet vtempora atque unde ea provident porro? Facere natus voluptatem",
       img: imgobj.dummy1,
     },
     {
-      name: "satyam",
-      des: "dancer",
+      name: "Vande Matram Event",
+      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Amet vtempora atque unde ea provident porro? Facere natus voluptatem",
+      img: imgobj.dummy1,
+    },
+    {
+      name: "Work Shop",
+      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Amet vtempora atque unde ea provident porro? Facere natus voluptatem",
       img: imgobj.dummy1,
     },
   ]);
@@ -30,7 +29,7 @@ export default function Cardcompo() {
             <>
               <div className="col-md-3 mx-auto">
                 <div className={`${style.bg_card_img} card text-start`}>
-                  {/* <img class="card-img-top" src={el.img} alt="Title" /> */}
+                  <img class=" p-3" src={el.img} alt="Title" />
                   <div className={`${style.card_bdy} card-body`}>
                     <h4 class="card-title">{el.name}</h4>
                     <p class="card-text">{el.des}</p>
