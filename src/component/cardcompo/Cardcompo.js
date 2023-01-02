@@ -27,7 +27,7 @@ export default function Cardcompo() {
         {cardsArr.map((el) => {
           return (
             <>
-              <div  className={`${style.cons_singleTeam} ${style.all_color_team} ${style.witr_team_s13} ${style.witr_team_s12}  mx-auto`}>
+              <div  className={`${style.cons_singleTeam} ${style.all_color_team} ${style.witr_team_s13} ${style.witr_team_s12}   mx-auto`}>
                 <div className={`${style.bg_card_img} card text-start`}>
                   <img class=" p-3" src={el.img} alt="Title" />
                   <div className={`${style.card_bdy} card-body `}>
