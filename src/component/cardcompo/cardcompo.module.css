@@ -11,3 +11,76 @@
   background-color: #807777a1;
   color: black;
 }
+.cons_singleTeam{
+  width:300px;
+  padding-bottom: 30px;
+}
+.witr_team_s13.cons_singleTeam {
+  overflow: inherit;
+  margin-bottom: 30px;
+}
+.witr_team_s13 {
+  position: relative;
+}
+.witr_team_s12 {
+  border: none;
+  box-shadow: 0px 5px 20px 0px #00000014;
+  transition: .5s;
+}
+.cons_singleTeam {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.witr_team_s13:hover .team_line_top, .witr_team_s13:hover .team_line_bottom {
+  width: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+  opacity: 1;
+}
+.team_line_top {
+  top: 0px;
+}
+.team_line_top, .team_line_bottom {
+  width: 0;
+  height: 2px;
+  left: -60px;
+  background: linear-gradient(to right, rgba(117, 161, 251, 0),  #0d1213, rgba(117, 161, 251, 0));
+}
+.team_line {
+  background-color: #75a1fb;
+  position: absolute;
+  opacity: 1;
+  transition: .5s;
+  z-index: 99;
+}
+.witr_team_s13:hover .team_line_left, .witr_team_s13:hover .team_line_right {
+  height: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+  opacity: 1;
+}
+.team_line_left {
+  left: 0px;
+}
+.team_line_left, .team_line_right {
+  height: 0;
+  width: 2px;
+  top: -60px;
+  background: linear-gradient(to top, rgba(117, 161, 251, 0), #0d1213, rgba(117, 161, 251, 0));
+}
+.team_line_left, .witr_team_s13:hover .team_line_right {
+  height: calc(100% + 110px);
+}
+.witr_team_s13:hover .team_line {
+  opacity: 1;
+}
+.team_line_right {
+  right: 0px;
+}
+.team_line_left, .team_line_right {
+  height: 0;
+  width: 2px;
+  top: -60px;
+  background: linear-gradient(to top, rgba(117, 161, 251, 0), #0c1213, rgba(117, 161, 251, 0));
+}

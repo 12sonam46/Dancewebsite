@@ -23,18 +23,22 @@ export default function Cardcompo() {
   return (
     <div>
       {/* card sec */}
-      <div className="row">
+      <div >
         {cardsArr.map((el) => {
           return (
             <>
-              <div className="col-md-3 mx-auto">
+              <div  className={`${style.cons_singleTeam} ${style.all_color_team} ${style.witr_team_s13} ${style.witr_team_s12}  mx-auto`}>
                 <div className={`${style.bg_card_img} card text-start`}>
                   <img class=" p-3" src={el.img} alt="Title" />
-                  <div className={`${style.card_bdy} card-body border border-primary`}>
+                  <div className={`${style.card_bdy} card-body `}>
                     <h4 class="card-title">{el.name}</h4>
                     <p class="card-text">{el.des}</p>
                   </div>
                 </div>
+                <div  className={`${style.team_line} ${style.team_line_top} `}></div>
+                    <div className={`${style.team_line} ${style.team_line_left} `}></div>
+                    <div className={`${style.team_line} ${style.team_line_right} `}></div>
+                    <div className={`${style.team_line} ${style.team_line_bottom} `}></div>
               </div>
             </>
           );

@@ -13,12 +13,12 @@ import {
 
 export default function Footer() {
   return (
-    <div>
-      <div className="container-fluid">
+    <>
         <footer className={`${style.footer_set}`}>
+      <div className="container-fluid">
           <div className="row">
-            <div className="col-md-2 d-flex justify-content-center align-items-center ">
-              <div>
+            <div className="col-md-2">
+              <div className=" d-flex justify-content-center align-items-center ">
                 <ul className={`${style.footer_all_list_link}`}>
                   <li>Home</li>
                   <li>About</li>
@@ -27,8 +27,8 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-center align-items-center pt-2">
-              <div>
+            <div className="col-md-4 ">
+              <div className="d-flex justify-content-center align-items-center pt-2">
                 <ul className={`${style.footer_all_list_link}`}>
                   <li>Address</li>
                   <p className={`${style.text_color_footer} p-3`}>
@@ -47,8 +47,8 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-2  d-flex justify-content-center align-items-center pt-2">
-              <div>
+            <div className="col-md-2 ">
+              <div className=" d-flex justify-content-center align-items-center pt-2">
                 <ul className={`${style.footer_all_list_link} `}>
                   <li>Link</li>
                   <li>
@@ -64,15 +64,18 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-center align-items-center pt-4">
+            <div className="col-md-4 ">
+            <div className=" d-flex justify-content-center align-items-center pt-4">
               <img className="" src={imgobj.dplogo} width="50%" alt="" />
             </div>
+            </div>
+          </div>
           </div>
         </footer>
         <div className={`${style.copyryt_sec} text-center`}>
           Copyright 2022 by DancePlanet. All Rights Reserved.
         </div>
-      </div>
-    </div>
+      {/* </div> */}
+    </>
   );
 }

@@ -6,6 +6,45 @@
     rgba(0, 0, 0, 1) 52%
   );
   height: 100vh;
+  animation: goloop 3s infinite;
+  /* transition: .2s; */
+}
+@keyframes goloop {
+  0%   {  background: linear-gradient(
+    0deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  15%  {  background: linear-gradient(
+    15deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  25%  {  background: linear-gradient(
+    25deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  50%  { background: linear-gradient(
+    50deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  75%  { background: linear-gradient(
+    75deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  85%  { background: linear-gradient(
+    85deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
+  100% { background: linear-gradient(
+    100deg,
+    rgba(255, 69, 0, 1) 52%,
+    rgba(0, 0, 0, 1) 52%
+  );}
 }
 .about_text {
   font-size: 60px;
@@ -17,5 +56,5 @@
 }
 .body_back_color {
   background-color: rgb(255, 69, 0);
-  height: 170vh;
+  height: 180vh;
 }
